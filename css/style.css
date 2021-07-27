@@ -1,0 +1,55 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background : url('../images/pexels-pixabay-237272.jpg') ;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container{
+    max-width: 400px;
+    border-radius: 20px;
+}
+.card{
+    overflow: hidden;
+    border-radius: 20px;
+    height: 600px; 
+    background-image:linear-gradient(to right,#0084ff,#00f2ff);
+    border: none;
+    box-shadow: 0 5px 8px #414141;
+    z-index: 0;
+    box-sizing: border-box;
+}
+.circle{
+    position: absolute;
+    bottom:-230px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    clip-path: circle(50%);
+    width:700px;
+    height: 700px;
+    z-index:-1
+}
+.myHed{
+    background-image:linear-gradient(to right,#0084ff,#00f2ff);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 360px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.fa{
+    font-size: 40px;
+}
+
